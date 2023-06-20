@@ -19,8 +19,8 @@ def test_main_1():
     # res = re.search(r'[\w,\W]*100[\w,\W]*', lines[0])
     # assert res != None
     # print(res.group())
-    m = f'{m_perc:.2f}'
-    f = f'{f_perc:.2f}'
+    m = f'float{m_perc:.2f}'
+    f = f'float{f_perc:.2f}'
     assert m == '40.00', 'Expect 40.00'
     assert f == '60.00', 'Expect 40.00'
 
