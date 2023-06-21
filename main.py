@@ -1,19 +1,19 @@
 def main():
 
-    males = float(input("How many male students? "))
-    females = float(input("How many female students? "))
+    num_males = int(input("How many male students? "))
+    num_females = int(input("How many female students? "))
 
-    total = (males + females)
-    m_perc = format(float(males / total), '.2%')
-    f_perc = format(float(females / total),'.2%')
+    total = (num_males + num_females)
+    m_perc = float(num_males) / total
+    f_perc = float(num_females) / total
 
 
     print("")
-    print(f'Number of males: {males}')
-    print(f'Number of females: {females}')
     print(f'Number of students: {total}')
-    print(f'Males: {m_perc}')
-    print(f'Females: {f_perc}')
+    print(f'Number of males: {num_males}')
+    print(f'Number of females: {num_females}')
+    print(f'Males: (format {m_perc:.2%}')
+    print(f'Females: (format {f_perc:.2%}')
     print("")
 
     """
