@@ -1,7 +1,7 @@
 def main():
 
-    num_males = int(input("How many male students? "))
-    num_females = int(input("How many female students? "))
+    num_males = int(40)
+    num_females = int(60)
 
     total = (num_males + num_females)
     m_perc = float(num_males) / total
