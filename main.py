@@ -9,6 +9,9 @@ def main():
 
 
     print("")
+    print(f'Number of males: {males}')
+    print(f'Number of females: {females}')
+    print(f'Number of students: {total}')
     print(f'Males: {m_perc}')
     print(f'Females: {f_perc}')
     print("")
