@@ -4,8 +4,8 @@ def main():
     num_females = input("How many females? ")
 
     total = (int(num_males) + int(num_females))
-    m_perc = float(num_males) / float(total)
-    f_perc = float(num_females) / float(total)
+    m_perc = float(num_males) / float(total) * 100
+    f_perc = float(num_females) / float(total) * 100
 
     print("")
     print(f'Number of students: {total}')
