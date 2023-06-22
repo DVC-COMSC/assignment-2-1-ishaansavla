@@ -21,7 +21,8 @@ def test_main_1():
     # res = re.search(r'[\w,\W]*100[\w,\W]*', lines[0])
     # assert res != None
     # print(res.group())
-    # I found you changed the main_test.py file. Please leave it unchanged.
+#     m = f'float{m_perc:.2f}'
+#     f = f'float{f_perc:.2f}'
 
     m = f'{m_perc:.2f}'
     f = f'{f_perc:.2f}'
